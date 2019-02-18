@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#4b11c9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="defaultcolor">#bbbbbb</color>
+    <color name="maincolor">#4b11c9</color>
+    <color name="merah">#eb0a16</color>
+    <color name="hijau">#00ff2a</color>
+</resources>

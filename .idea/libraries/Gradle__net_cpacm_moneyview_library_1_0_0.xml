@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.cpacm.moneyview:library-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/bd6797660177ba5097d385982af08965/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.0.0.aar/bd6797660177ba5097d385982af08965/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.cpacm.moneyview/library/1.0.0/73ffff7c90e919d96f46766ab8cf397d5a03c9ec/library-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

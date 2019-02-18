@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Billing POS</string>
+    <!--<string name="text_detailpenjualan">DETAIL PENJUALAN</string>-->
+    <!--<string name="detail_penjualan">DETAIL PENJUALAN</string>-->
+    <string name="td">:</string>
+    <string name="level">STATUS</string>
+    <string name="id_waiter">ID USER</string>
+    <string name="nama_waiter">NAMA</string>
+    <string name="info_transaksi">INFO LOGIN</string>
+
+
+    <string name="qty">QTY</string>
+    <string name="title_activity_category">Kategori</string>
+    <string name="title_activity_subcategory">SubKategori</string>
+    <string name="title_activity_menu">List Menu</string>
+    <string name="title_activity_data_meja">DataMejaActivity</string>
+    <string name="title_activity_report_main">ReportActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:keyboard="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Activity.OrderProdukActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c3070707"
+        android:orientation="vertical">
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/txttitledialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:maxLines="1"
+            android:layout_margin="8dp"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            autofit:minTextSize="11sp"/>
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/txttitledialog"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="8dp"-->
+    <!--android:text="Masukan Jumlah"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="#fff700"-->
+    <!--android:textSize="18sp" />-->
+
+    <TextView
+        android:id="@+id/amount"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <com.davidmiguel.numberkeyboard.NumberKeyboard
+        android:id="@+id/numberKeyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        keyboard:keyHeight="70dp"
+        keyboard:keyPadding="8dp"
+        keyboard:keyWidth="70dp"
+        keyboard:keyboardType="custom"
+        keyboard:leftAuxBtnBackground="@drawable/roundbutton_red"
+        keyboard:leftAuxBtnIcon="@drawable/ic_backspace_white_24dp"
+        keyboard:numberKeyTextColor="@android:color/white"
+        keyboard:rightAuxBtnBackground="@drawable/roundbutton"
+        keyboard:rightAuxBtnIcon="@drawable/ic_check_white_48dp" />
+
+</LinearLayout>
